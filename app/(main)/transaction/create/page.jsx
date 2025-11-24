@@ -4,6 +4,9 @@ import React from 'react'
 import AddTransactionForm from '../_components/transaction_form';
 import { getTransaction } from '@/action/transaction';
 
+
+export const dynamic = "force-dynamic";
+
 const AddTransactionPage  = async ({searchParams}) => {
 
     const accounts =await getUserAccounts();
